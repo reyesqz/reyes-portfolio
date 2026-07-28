@@ -1,49 +1,138 @@
 * {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    color: #222;
-    text-align: center;
-}
-
-header {
-    padding: 80px 20px;
-    background: #111;
-    color: white;
-}
-
-h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-
-section {
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 30px 20px;
-    background: white;
-    border-radius: 15px;
-}
-
-h2 {
-    margin-bottom: 15px;
-}
-
-ul {
-    list-style: none;
     padding: 0;
 }
 
-li {
-    padding: 8px;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0b0f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    min-height: 90vh;
+    padding: 25px 8%;
+    background: linear-gradient(135deg, #0b0b0f, #17172a);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 28px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    max-width: 750px;
+    margin-top: 150px;
+}
+
+.small-text {
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #7c5cff;
+}
+
+.hero p {
+    font-size: 19px;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 24px;
+    background: #7c5cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 70px 20px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #bdbdbd;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.skills div,
+.project {
+    background: #15151d;
+    border: 1px solid #292936;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project span {
+    display: inline-block;
+    margin-top: 15px;
+    color: #7c5cff;
 }
 
 footer {
-    padding: 25px;
-    background: #111;
-    color: white;
-  }
+    text-align: center;
+    padding: 30px;
+    background: #07070a;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+
+    .hero {
+        margin-top: 100px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .skills {
+        grid-template-columns: 1fr;
+    }
+}
