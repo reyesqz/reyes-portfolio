@@ -3,31 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reyes | My Portfolio</title> <link rel="stylesheet" href="style.css">
+    <title>Reyes | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Hi, I'm Reyes 👋</h1>
+    <header>
+        <nav>
+            <h2>Reyes.</h2>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <p>Welcome to my personal portfolio.</p>
+        <div class="hero">
+            <p class="small-text">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Reyes</span> 👋</h1>
+            <p>I’m learning web development and building my skills one project at a time.</p>
+            <a class="button" href="#projects">View My Projects</a>
+        </div>
+    </header>
 
-    <h2>About Me</h2>
-    <p>I'm learning coding, web development and technology.</p>
+    <main>
 
-    <h2>My Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>Learning CSS</li>
-        <li>Video Editing</li>
-        <li>Creative Design</li>
-    </ul>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I'm a beginner web developer learning how to build websites
+                with HTML and CSS. I'm interested in technology, creativity
+                and learning new things.
+            </p>
+        </section>
 
-    <h2>My Projects</h2>
-    <p>This is my first portfolio project on GitHub.</p>
+        <section>
+            <h2>My Skills</h2>
 
-    <h2>Contact</h2>
-    <p>You can contact me through my social media.</p>
+            <div class="skills">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>Video Editing</div>
+                <div>Creative Design</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>My First Portfolio</h3>
+                <p>A personal portfolio website built with HTML and CSS.</p>
+                <span>HTML • CSS</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Connect</h2>
+            <p>Thanks for visiting my portfolio!</p>
+            <a class="button" href="mailto:your@email.com">Contact Me</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Reyes. Built with HTML & CSS.</p>
+    </footer>
 
 </body>
-          </html>
+</html>
