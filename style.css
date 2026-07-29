@@ -160,3 +160,11 @@ footer {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.avatar {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  border: 4px solid #8b5cf6;
+      }
