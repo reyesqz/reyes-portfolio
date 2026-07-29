@@ -136,3 +136,27 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+#about {
+  max-width: 700px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  color: #bfbfbf;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.small-text {
+  color: #8b5cf6;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
