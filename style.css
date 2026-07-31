@@ -223,3 +223,15 @@ footer {
 .contact-links a:hover {
     background: #6d28d9;
     }
+.project {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(123, 92, 255, 0.3);
+}
+
+.project:active {
+    transform: scale(0.98);
+    }
